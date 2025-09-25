@@ -31,7 +31,7 @@ content_type: concept
 
 ```md
 ---
-### [(카테고리)] (내용 작성)
+#### [(카테고리)] (내용 작성)
 
 #### 예시
 * 해당하는 경우에만 작성
@@ -56,7 +56,7 @@ content_type: concept
 
 ## 모범 사례
 
-### [프로세스] 리뷰 반영 중에는 amend/squash 대신 추가 커밋을 작성한다.
+#### [프로세스] 리뷰 반영 중에는 amend/squash 대신 추가 커밋을 작성한다.
 
 #### 설명
 - 기여자가 리뷰 반영 과정에서 amend/squash 후 force-push를 하게 되면, 기존 리뷰 코멘트가 파일 뷰 라인에 유지되지 않는 문제가 발생한다.
@@ -68,9 +68,9 @@ content_type: concept
 
 ---
 
-### [원문] 가급적 원문을 준수한다.
+#### [원문] 가급적 원문을 준수한다.
 
-### 예시
+#### 예시
 ```md
 [영어 원문]
 If you want to use minikube again to learn more about Kubernetes, you don't need to delete it.
@@ -92,7 +92,7 @@ If you want to use minikube again to learn more about Kubernetes, you don't need
 
 ---
 
-### [원문] 영어 원문과 유사하게 개행하여 총 라인 수를 같게 한다.
+#### [원문] 영어 원문과 유사하게 개행하여 총 라인 수를 같게 한다.
 
 #### 예시
 ```md
@@ -117,7 +117,7 @@ isolated from the rest of your cluster.
 
 ---
 
-### [용어] 영문 병기는 기본적으로 문서에서 해당 용어가 처음 등장할 때 한 번만 표기해도 된다.
+#### [용어] 영문 병기는 기본적으로 문서에서 해당 용어가 처음 등장할 때 한 번만 표기해도 된다.
 
 #### 예시
 ```md
@@ -125,6 +125,7 @@ isolated from the rest of your cluster.
 ## Create a ResourceQuota
 
 Here is the configuration file for a ResourceQuota object:
+
 [권장 번역]
 ## 리소스쿼터(ResourceQuota) 생성
 
